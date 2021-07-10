@@ -1,0 +1,43 @@
+        <footer class="container-fluid presentation text-dark"> <!--Pie de Página-->
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../images/logo.png" alt="logo" class="img-fluid logo">
+                </div>
+                <div class="col-md-4">
+                    <ul class="lista_sin_estilo">
+                        <li>Guadalupe No. 205, Celaya, Guanajuato.</li>
+                        <li>Recepción: (461) 6120137</li>
+                        <li>Contabilidad: (461) 6123905</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>Banco de Sangre: (461) 6123314</li>
+                        <li>Urgencias: (461) 6120137</li>
+                        <li>Farmacia: (461) 6162927</li>
+                        <li>Seguros: (461) 61 20137 ext. 422 y 424</li>
+                        <li>Laboratorio Clínico: (461) 6123314</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+        <script>
+            (function () {
+                'use strict'
+                var forms = document.querySelectorAll('.needs-validation')
+                Array.prototype.slice.call(forms)
+                    .forEach(function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+                            form.classList.add('was-validated')
+                        }, false)
+                    })
+            })()
+        </script>
+    </body>
+</html>

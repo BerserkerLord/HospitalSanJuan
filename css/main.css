@@ -1,0 +1,78 @@
+header{
+    font-size: 0.9em;
+}
+
+footer{
+    background-color: #40E0D0;
+}
+
+.scrollable{
+    max-height: 50px;
+    overflow: auto;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+}
+
+.presentation{
+    padding: 3rem;
+}
+
+.aseguradoras{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}
+
+.lista_sin_estilo{
+    list-style: none;
+}
+
+.nosotros-img{
+    width: 140px;
+    height: 140px;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#urgencias{
+    background-image: url("../images/urgencias.jpg");
+    filter: brightness(0.8);
+}
+
+#ambulancia{
+    background-image: url("../images/ambulancia.jpg");
+    filter: brightness(0.8);
+}
+
+#farmacia{
+    background-image: url("../images/farmacia.jfif");
+    filter: brightness(0.8);
+}
+
+#texto_bannerAseguradora{
+    text-align: center;
+}
+
+#misionImg{
+    width: 10rem;
+    height: 10rem;
+}
+
+#nosotros-presentacion-img{
+    background-image: url("../images/hospital2.jpg");
+}
+
+
+
+
+
+
+
+

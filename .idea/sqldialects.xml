@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/admin/doctores.controller.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/admin/permisos.controller.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/admin/productos.controller.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/admin/roles.controller.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/admin/tipo_producto.controller.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/admin/usuarios.controller.php" dialect="GenericSQL" />
+  </component>
+</project>

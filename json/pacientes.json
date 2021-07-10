@@ -1,0 +1,22 @@
+{
+  "correo": "fernando@gmail.com",
+  "contrasena": "abc",
+  "nombre": "Raul Ivan",
+  "apaterno": "Zarate",
+  "amaterno": "Ceballos",
+  "nacimiento": "2004-02-02",
+  "domicilio": "Andador Jalisco 1412 Interor 4 UH Infonavit",
+  "id_doctor": 3,
+  "consultas":[
+    {
+      "padecimiento": "Dolor de rodilla",
+      "tratamiento": "Pomada con Naproxeno",
+      "fecha": "2021-06-15"
+    },
+    {
+      "padecimiento": "Dolor de codo",
+      "tratamiento": "Ketorolaco",
+      "fecha": "2021-06-15"
+    }
+  ]
+}
